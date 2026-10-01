@@ -9,7 +9,7 @@ void testAShift() {
 
 void testBShift() {
 	unsigned char B = 99;
-	B = B ^ (B << 1); // Non-destructive bitshift replacement
+	B = B ^ (B >> 1); // Non-destructive bitshift replacement
 
 	printf("Test B Shift: %d\n", B);
 }

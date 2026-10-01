@@ -13,7 +13,7 @@ unsigned char* SSHA(const unsigned char* msg, size_t length) {
             unsigned char g = (B & C) | (C & D);
             unsigned char old_A = A;
             A = A ^ (A >> 2); // Non-destructive bitshift replacement
-            B = B ^ (B << 1); // Non-destructive bitshift replacement
+            B = B ^ (B >> 1); // Non-destructive bitshift replacement
             E = (g + msg[i] + B);
             D = A ^ B;
             C = (A + E);
