@@ -12,13 +12,24 @@ unsigned char* SSHA(const unsigned char* msg, size_t length) {
         for (int round = 0; round < 8; round++) {
             unsigned char g = (B & C) | (C & D);
             unsigned char old_A = A;
-            A = A ^ (A >> 2); // Non-destructive bitshift replacement
-            B = B ^ (B >> 1); // Non-destructive bitshift replacement
-            E = (g + msg[i] + B);
-            D = A ^ B;
-            C = (A + E);
+
+            unsigned char shiftedA = A >> 2;
+            unsigned char shiftedB = B >> 1;
+
             A = E;
-            B = old_A;
+            B = A;
+            C = (B & C) + E;
+			D = shiftedA ^ shiftedB;
+			E = g + shiftedB + msg[i];
+
+
+            //A = A ^ (A >> 2); // Non-destructive bitshift replacement
+            //B = B ^ (B >> 1); // Non-destructive bitshift replacement
+            //E = (g + msg[i] + B);
+            //D = A ^ B;
+            //C = (A + E);
+            //A = E;
+            //B = old_A;
         }
     }
 
