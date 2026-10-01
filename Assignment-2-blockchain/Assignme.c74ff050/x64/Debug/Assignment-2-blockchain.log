@@ -2,19 +2,6 @@
 C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\user.h(18,2): warning C4091: 'typedef ': ignored on left of 'User' when no variable is declared
   (compiling source file '../driver.c')
   
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(8,13): warning C4133: 'function': incompatible types - from 'user *' to 'User *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(8,7): warning C4133: '=': incompatible types - from 'User *' to 'user *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(9,13): warning C4133: 'function': incompatible types - from 'user *' to 'User *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(9,7): warning C4133: '=': incompatible types - from 'User *' to 'user *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(10,13): warning C4133: 'function': incompatible types - from 'user *' to 'User *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(10,7): warning C4133: '=': incompatible types - from 'User *' to 'user *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(11,13): warning C4133: 'function': incompatible types - from 'user *' to 'User *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(11,7): warning C4133: '=': incompatible types - from 'User *' to 'user *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(12,13): warning C4133: 'function': incompatible types - from 'user *' to 'User *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(12,7): warning C4133: '=': incompatible types - from 'User *' to 'user *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(13,13): warning C4133: 'function': incompatible types - from 'user *' to 'User *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(13,7): warning C4133: '=': incompatible types - from 'User *' to 'user *'
-C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\driver.c(14,9): warning C4133: 'function': incompatible types - from 'user *' to 'User *'
   hash.c
   user.c
 C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\user.h(18,2): warning C4091: 'typedef ': ignored on left of 'User' when no variable is declared
@@ -23,5 +10,6 @@ C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\user.h(18,2): warni
 C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\user.c(76,14): warning C4133: '=': incompatible types - from 'User *' to 'Block *'
 C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\user.c(113,14): warning C4133: '=': incompatible types - from 'Block *' to 'User *'
 C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\user.c(114,14): warning C4133: '=': incompatible types - from 'User *' to 'Block *'
+  test.c
   Generating Code...
   Assignment-2-blockchain.vcxproj -> C:\Users\Filip Infosec\source\repos\-Assignment-2-Blockchain\Assignment-2-blockchain\x64\Debug\Assignment-2-blockchain.exe
