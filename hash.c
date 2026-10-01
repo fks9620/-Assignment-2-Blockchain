@@ -16,11 +16,11 @@ unsigned char* SSHA(const unsigned char* msg, size_t length) {
             unsigned char shiftedA = A >> 2;
             unsigned char shiftedB = B >> 1;
 
-            A = E;
-            B = A;
-            C = (B & C) + E;
-			D = shiftedA ^ shiftedB;
-			E = g + shiftedB + msg[i];
+            A = E; //good
+            B = A; //good
+            C = shiftedA + E; //good
+			D = shiftedA ^ shiftedB; //good
+			E = g + shiftedB + msg[i]; //good
 
 
             //A = A ^ (A >> 2); // Non-destructive bitshift replacement
