@@ -13,12 +13,12 @@ int main(void) {
 	testBShift();
 	testLetters();
 
-	/*struct user * head=NULL;
+	struct user * head=NULL;
 	head = add(head, "test");
 	head = add(head, "huh");
 	head = add(head, "gahyun");
 	head = add(head, "matt");
 	head = add(head, "sumita");
 	head = add(head, "james");
-	verify(head);*/
+	verify(head);
 }
